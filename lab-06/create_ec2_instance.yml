@@ -1,7 +1,6 @@
 ---
 - name: Create an EC2 instance
   hosts: localhost
-  connection: local
   gather_facts: False
   tasks:
     - name: Launch instance
